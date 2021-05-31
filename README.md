@@ -1,6 +1,6 @@
 # ecf4-LE_PAYS
 
-* Besoins fonctionnels:
+ Besoins fonctionnels:
 
 * Création d'un site internet sur Journal local "Le Pays" visant à moderniser la version papier actuelle afin de relayer les informations.
 
