@@ -1,22 +1,22 @@
 # ecf4-LE_PAYS
 
-*Besoins fonctionnels:
+* Besoins fonctionnels:
 
-*Création d'un site internet sur Journal local "Le Pays" visant à moderniser la version papier actuelle afin de relayer les informations.
+* Création d'un site internet sur Journal local "Le Pays" visant à moderniser la version papier actuelle afin de relayer les informations.
 
-*Le client souhaite une site proche du format papier et au confort de lecture que peut fournir ce support .
+* Le client souhaite une site proche du format papier et au confort de lecture que peut fournir ce support .
 
-*En effet ,le client veut un site simple d'utilisation et agréable à la lecture que sa version papier .
+* En effet ,le client veut un site simple d'utilisation et agréable à la lecture que sa version papier .
 
-*Dans les catégories nous retrouverons les rubriques permettant d'accéder aux activités sportives et culturelle du pays .
+* Dans les catégories nous retrouverons les rubriques permettant d'accéder aux activités sportives et culturelle du pays .
 
-*Facilité la consultation ou la recherche des articles de presses en misant sur la disposition des articles .
+* Facilité la consultation ou la recherche des articles de presses en misant sur la disposition des articles .
 
-*En ce qui concerne la taxonomie du site , elle devra permettre une navigation des contenus de manière intuitive par catégorie ou par tags.
+* En ce qui concerne la taxonomie du site , elle devra permettre une navigation des contenus de manière intuitive par catégorie ou par tags.
 
-*Le client souhaite conserver le rôle premier du site qui est d'informer et de présenter les informations de manière chronologique afin de prioriser la une des informations du jour.
+* Le client souhaite conserver le rôle premier du site qui est d'informer et de présenter les informations de manière chronologique afin de prioriser la une des informations du jour.
 
-*Enfin le client souhaite atteindre des lecteurs plus jeune en rendant son site internet accessible sur Mobile.
+* Enfin le client souhaite atteindre des lecteurs plus jeune en rendant son site internet accessible sur Mobile.
 
 
 Voici quelques exemple de site de presses:
