@@ -17,13 +17,13 @@
   <nav class="navbar navbar-dark bg-dark my-custom-menu ">  
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="accueil">Home</a>
+    <a class="nav-link active" href="accueil">Accueil</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Blog">Blog</a>
+    <a class="nav-link" href="Blog">Culture</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Contact">Contact</a>
+    <a class="nav-link" href="Contact">Sport</a>
   </li>
   
 </ul>
