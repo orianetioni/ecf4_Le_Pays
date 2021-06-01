@@ -12,22 +12,14 @@
  
 
     <header class="header">
-    <?php //wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
-
-  <nav class="navbar navbar-dark bg-dark my-custom-menu ">  
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="accueil">Accueil</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="Blog">Culture</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="Contact">Sport</a>
-  </li>
-  
-</ul>
-</nav>
+    <?php 
+    wp_nav_menu ( array (
+    'theme_location' => 'menu' ,
+    'menu_class' => 'menu', 
+    ) ); ?>
+      <a href="<?php echo home_url( '/' ); ?>">
+      <img class="img_header" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+      </a>
     </header>
     
     <?php wp_body_open(); ?>

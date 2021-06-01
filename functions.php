@@ -14,7 +14,7 @@
 
 
       function wpb_custom_new_menu() {
-        register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+        register_nav_menu('menu_principal',__( 'Menu principal' ));
       }
       add_action( 'init', 'wpb_custom_new_menu' );
 
