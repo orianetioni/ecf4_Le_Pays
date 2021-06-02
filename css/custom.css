@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.menu{
+    margin-top: 10px;
+   
+   }
+.menu li{
+       display: inline;
+       padding: 10px 10px 0 10px;
+   }
+.menu li a{
+    color: black;
+}
+   
+.header img
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+
+}
+
+h1{
+    text-align: center;
+}
+.site_sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
