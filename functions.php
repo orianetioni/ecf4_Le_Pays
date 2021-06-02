@@ -4,6 +4,8 @@
 
     function add_theme_scripts() {
         wp_enqueue_style( 'style', get_stylesheet_uri() );
+        
+        wp_enqueue_style( 'bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
        
         wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css', array(), '1.1', 'all');
        
