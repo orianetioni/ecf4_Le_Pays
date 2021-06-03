@@ -1,7 +1,9 @@
 *{
     margin: 0;
 }
-
+body {
+    margin: 0;
+}
 .menu{
     display: flex;
     margin-top: 10px;
@@ -15,7 +17,6 @@
 .menu li a{
     color: black;
 }
-   
 .header img
 {
     display: block;
@@ -24,10 +25,12 @@
     height: 100px;
 
 }
-
 h1{
     text-align: center;
+    color: grey;
 }
+
+
 .site_sidebar{
     display: flex;
     flex-direction: column;
