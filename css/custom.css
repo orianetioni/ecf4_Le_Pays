@@ -40,4 +40,77 @@ h1{
   height: 300px;
 
 }*/
+body {
+    background-color: #e3f6f6;
+    font-family: 'Oswald', sans-serif;
+}
+.menu ul {
+    font-weight: 800;
+    display: flex;
+    list-style: none !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(48, 47, 47);
+    letter-spacing: 0.09rem;
+}
+
+a:hover {
+    color: #e5ece5;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #eaf4f4;
+}
+
+h2 {
+    font-family:'Source Serif Pro', serif; 
+    font-weight:500; 
+    font-size: 60px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro {
+    color: rgb(251, 254, 255);
+    width: 50rem;
+    height: 20rem;
+    margin: 0 auto;
+    background: rgba(56, 184, 235, 0.637);
+}
+
+
+
+hr.style1 {
+    border-top: 0.5rem solid #8f8f8f;
+}
+
+hr.style2 {
+    width: 50rem;
+    margin: auto;
+    border-top: 0.2rem solid #ffffff;
+}
+
+hr.style3 {
+    width: 25rem;
+    margin: auto;
+    border-top: 0.2rem solid #ffffff;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
 

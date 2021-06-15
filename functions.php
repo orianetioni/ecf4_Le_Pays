@@ -1,9 +1,9 @@
 <?php
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'title-tag' );
-    set_post_thumbnail_size( 346, 276, true );
+    set_post_thumbnail_size( 340, 270, true );
 
-    add_image_size( 'art', 768, 664, false);
+    add_image_size( 'art', 760, 660, false);
 
     
     function add_theme_scripts() {
