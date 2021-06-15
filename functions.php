@@ -1,7 +1,11 @@
 <?php
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'title-tag' );
+    set_post_thumbnail_size( 346, 276, true );
 
+    add_image_size( 'art', 768, 664, false);
+
+    
     function add_theme_scripts() {
         wp_enqueue_style( 'style', get_stylesheet_uri() );
         
@@ -22,12 +26,15 @@
 
       function wpb_init_widgets_custom($id) {
         register_sidebar( array(
-          'id' => 'sidebar',
-          'name' => 'yolo',
-          'before_widget'  => '<div class="site__sidebar__widget %2$s">',
-          'after_widget'  => '</div>',
-          'before_title' => '<p class="site__sidebar__widget__title">',
-          'after_title' => '</p>',
-        ) );
+          'name' => __( 'In Header Widget Area', 'rmccollin' ),
+          'id' => 'in-header-widget-area',
+          'description' => __( 'A widget area located to the right hand side of the header, next to the site title and description.', 'rmccollin' ),
+          'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+          'after_widget' => '</div>',
+          'before_title' => '<h3 class="widget-title">',
+          'after_title' => '</h3>',
+         ) );
+    
+      
     }
     add_action('widgets_init','wpb_init_widgets_custom');    
