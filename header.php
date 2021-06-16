@@ -16,15 +16,13 @@
                 <img class="d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
                     alt="Logo Le Pays" >
             </a>
-        </div>
+            </div>
+        <div class="menu">
        <?php 
 
-
-        wp_nav_menu ( array (
-        'theme_location' => 'menu' ,
-        'menu_class' => 'menu', 
-        ) ); ?>
-    
+   
+        wp_nav_menu () ?>
+         </div>
     </header>
             <?php if ( is_active_sidebar( 'in-header-widget-area' ) ) { ?>
 

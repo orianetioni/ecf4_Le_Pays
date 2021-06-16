@@ -7,7 +7,7 @@
         <div class="row g-0">
 
             <div class="col-md-4">
-                <img class="card-img-top img-article" style="max-width: 540px; height:auto;"
+                <img class="card-img-top img-article" style="max-width: 450px; height:auto;"
                     src="<?php the_post_thumbnail();?>">
             </div>
             

@@ -9,7 +9,7 @@
 
 <div class="intro text-center mt-5 mb-5 pb-5">
 	<h1 style="font-family:'Source Serif Pro', serif; font-weight:500; font-size: 110px;">La Une !</h1>
-	<p style="font-family: 'Arial'; font-size: 23px;">
+	<p style="font-family: 'Arial'; font-size: 20px;">
 		Bienvenue sur le site Du journal LE PAYS <br> représentant l'actualité sportive et
 		culturelle de chez nous
 	</p>
@@ -22,7 +22,7 @@
 
 	
 	<?php $args = array(
-		'posts_per_page' => 3,
+		'posts_per_page' => 6,
 		'order' => 'DESC'
 	); ?>
 
@@ -44,7 +44,7 @@
 						</p>
 						<?php	
 					} ?>
-						<div style="font-family:'Source Serif Pro', serif; font-size: 18px;">
+						<div style="font-family:'Source Serif Pro', serif; font-size: 16px;">
 							<?php the_excerpt(); ?>
 						</div>
 						<p>
@@ -57,10 +57,9 @@
 
 		<?php endwhile;
         ?>
-		<?php wp_reset_postdata(); // always always remember to reset postdata when using a custom query, very important
+		<?php wp_reset_postdata(); 
 			endif; ?>
 	</div>
 </div>
-
-
 <?php get_footer(); ?>
+
