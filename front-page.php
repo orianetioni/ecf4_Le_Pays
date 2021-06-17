@@ -1,11 +1,9 @@
 <?php
 /*
 * Template Name: front-page
-* Template for displaying the front page of the site
 */
 ?>
 <?php get_header(); ?>
-
 
 <div class="intro text-center mt-5 mb-5 pb-5">
 	<h1 style="font-family:'Source Serif Pro', serif; font-weight:500; font-size: 110px;">La Une !</h1>

@@ -2,7 +2,6 @@
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'title-tag' );
     set_post_thumbnail_size( 350, 250, true );
-
     add_image_size( 'art', 750, 650, false);
 
     
@@ -33,8 +32,6 @@
           'after_widget' => '</div>',
           'before_title' => '<h3 class="widget-title">',
           'after_title' => '</h3>',
-         ) );
-    
-      
-    }
-    add_action('widgets_init','wpb_init_widgets_custom');    
+         ) );  
+       }
+      add_action('widgets_init','wpb_init_widgets_custom');    
