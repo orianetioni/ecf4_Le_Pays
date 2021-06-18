@@ -35,3 +35,8 @@
          ) );  
        }
       add_action('widgets_init','wpb_init_widgets_custom');    
+
+      function wp_version_remove_version() {
+        return '';
+        }
+        add_filter('the_generator', 'wp_version_remove_version');

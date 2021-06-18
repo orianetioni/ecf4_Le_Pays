@@ -1,6 +1,14 @@
-# ecf4-LE_PAYS
+# LE PAYS - Cahier de charges 
+Site informatif Le Pays
 
- Besoins fonctionnels:
+## Contexte
+Mr DOE possède une entreprise de presse , il souhaite moderniser son journal local local "LE PAYS ".
+pour cela , le client veut site soit simple d’utilisation et aussi agréable à la lecture que sa version papier.
+Le directeur est très attaché au papier et au confort de lecture que peut fournir ce support.
+ 
+
+## Besoins fonctionnels:
+Pour la création de son site le client souhaite:
 
 * Création d'un site internet sur Journal local "Le Pays" visant à moderniser la version papier actuelle afin de relayer les informations.
 
@@ -18,11 +26,51 @@
 
 * Enfin le client souhaite atteindre des lecteurs plus jeune en rendant son site internet accessible sur Mobile.
 
+## Réalisation du site:
+Pour répondre à la demande du clients , il y'aura différentes tâches à réaliser :
 
-Voici quelques exemple de site de presses:
+* Le site devra contenir contenir 3 pages :
+    * Une page " Accueil ", qui contiendra "La Une!" et les derniers articles posté .
+    * Une page " Culture ", qui contiendra tous les évènements culturels locaux,
+    * Une page "Sport ", qui contiendra tous les évènements sportives du pays.
 
-![article](https://user-images.githubusercontent.com/79125296/120126034-a512d800-c206-11eb-95a5-7de44cb415b6.PNG)
+* La taxonomie du site permettra de naviguer facilement entre les différents catégories et les différents tags :
+    * Création de 2 catégories : " Culture " & "Sport"
+    * Création en relation avec ses catégories : "nouvelle-calédonie" , "pays", "foot" , "volley" .
 
-![header](https://user-images.githubusercontent.com/79125296/120126036-a6dc9b80-c206-11eb-93d5-6ed06380348d.PNG)
+* Les plugins qu'il faudra installés :
 
-![main](https://user-images.githubusercontent.com/79125296/120126037-a7753200-c206-11eb-98b7-f84628cac9f5.PNG)
+* Sécurité:
+    * Ajouté un plugin « WP Hide Secure »,
+    * Changer le préfixe des tables
+    * Masquer la version:
+      function wp_version_remove_version() {
+  return '';
+  }
+  add_filter('the_generator', 'wp_version_remove_version');
+
+* Pour afficher du faux contenus:
+    * Faker press
+
+* Le site doit être responsif , pour rendre accessible à un plus large publics.
+
+* Site rémoin : https://www.lemonde.fr/
+
+* Url du site "Mon Pays" : http://oriane.devweb.cfa.nc/
+
+
+
+## Navigation du site 
+Le menu du site est composé de 2 pages : 
+* Une page « Accueil », qui affiche les derniers articles du jour et la " A la Une !".
+* Une page « Culture » qui affiche tous les articles de la catégorie Culture, 
+* Une page « Sport » qui affiche tous les articles de la catégorie Sport.
+
+Pour la réalisation du site nous avons utilisés HTML et CSS et Bootstrap. 
+
+## Contraintes Techniques
+* Le déploiement du site sur un serveur Web.
+
+
+
+
