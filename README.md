@@ -54,7 +54,7 @@ Pour répondre à la demande du clients , il y'aura différentes tâches à réa
 
 * Le site doit être responsif , pour rendre accessible à un plus large publics.
 
-* Site rémoin : https://www.lemonde.fr/
+* Site Témoin : https://www.lemonde.fr/
 
 * Url du site "Mon Pays" : http://oriane.devweb.cfa.nc/
 
